@@ -1,0 +1,10 @@
+<%_ if (options.importEnv === 'full') {_%>
+
+ALI_YUN = "http://example.com";
+ALI_DEV_YUN = "http://ALI_DEV_YUN.com"
+
+<%_ } else { _%>
+
+ALI_DEV_YUN = "http://ALI_DEV_YUN.com"
+
+<%_ } _%>

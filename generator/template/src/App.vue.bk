@@ -1,0 +1,14 @@
+---
+extend: './yxtyxt.vue'
+replace: !!js/regexp /<script>[^]*?<\/script>/
+---
+
+<script>
+export default {
+  // 替换默认脚本
+  function test () {
+
+    console.log(test);
+  }
+}
+</script>
